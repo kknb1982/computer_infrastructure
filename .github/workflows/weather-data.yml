@@ -7,16 +7,19 @@ on:
     - cron: '0 10 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   download_and_commit:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
     # Step 1: Checkout the repository
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        persist-credentials: true
 
     # Step 2: Set up the environment for running weather.sh
     - name: Set up Python
