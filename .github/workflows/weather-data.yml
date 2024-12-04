@@ -39,5 +39,5 @@ jobs:
         git add .
         git commit -m "Add new weather data"
         git push origin main 
-              env:
+              env:Giv
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
