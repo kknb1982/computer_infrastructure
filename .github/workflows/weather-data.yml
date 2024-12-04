@@ -44,6 +44,4 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add .
         git commit -m "Add new weather data"
-        git push origin main 
-              env:Giv
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git push origin main
