@@ -30,7 +30,7 @@ jobs:
     # Step 4: Run the weather.sh script to download the data
     - name: Download Weather Data
       run: 
-        python weather.sh
+        ./weather.sh
 
     # Step 5: Add, commit, and push the new data file
     - name: Commit and Push Data
