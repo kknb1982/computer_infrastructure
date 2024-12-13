@@ -1,5 +1,7 @@
 # Athenry Weather Data Download Workflow and Analysis
 
+![Image of a chart showing the change in windspeed readings at Athenry on 8 November 2024](https://github.com/kknb1982/computer_infrastructure/blob/main/images/chart_image.png)
+
 This repository contains resources for automating the daily retrieval of weather data for Athenry and provides a Jupyter notebook that documents the learning journey of creating and analysing this data. It has been created as part of my studies in Computer Science and Data Analytics at the Atlantic Technical University, Ireland.  
 
 ## Repository Structure
@@ -80,4 +82,4 @@ The scripting to download the data is in two parts:
 1. **`weather_data.yml`** codes the scheduling of the activity, running the data collection script and uploading the information to the repository.
 2. **`weather.sh`** codes the data fetching and saving.
 
-![Image of a chart showing the change in windspped readings at Athenry on 8 November 2024](https://atlantictu-my.sharepoint.com/:i:/r/personal/g00425638_atu_ie/Documents/Computer_infrastructure/chart_image.png?csf=1&web=1&e=R2wnKW)
+![Image of a chart showing the change in windspeed readings at Athenry on 8 November 2024](https://github.com/kknb1982/computer_infrastructure/blob/main/images/chart_image.png)
