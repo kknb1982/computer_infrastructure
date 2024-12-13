@@ -7,7 +7,7 @@ This repository contains resources for automating the daily retrieval of weather
 ## Repository Structure
 
 - **`.github/workflows`**: Contains a GitHub Actions workflow that:
-  - Downloads daily weather data for Athenry at 10am every day as directed by `weather-data.yml` and `weather.sh`.
+  - Downloads daily weather data for Athenry at 9.30am every day as directed by `weather-data.yml` and `weather.sh`.
   - Saves the data to the `data/weather` directory in the repository, each file is timestamped to show the day of download.
 
 - **`data/weather`**: Directory where the downloaded weather data files are stored.
